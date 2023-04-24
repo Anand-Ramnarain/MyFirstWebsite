@@ -1,0 +1,49 @@
+html,
+body {
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  background-color: rgb(114, 148, 209);
+}
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px;
+}
+
+.hSlide {
+    background: black;
+    color: white;
+    height: 5vh;
+    width: 30%;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Git {
+    font-size: 20px;
+    margin: auto;
+    width: 50%;
+    padding: 50px;
+}
+
+.previous {
+    background-color: #000000;
+    background-size: 30px;
+    font-size: 30px;
+    color: white;
+    position: relative; bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .next {
+    background-color: #000000;
+    background-size: 30px;
+    font-size: 30px;
+    color: white;
+    position: relative; left:85%; bottom: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+

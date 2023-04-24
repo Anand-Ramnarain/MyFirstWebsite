@@ -1,0 +1,54 @@
+html,
+body {
+  /* overflow: hidden; */
+  overflow-x: hidden;
+  background-color: rgb(114, 148, 209);
+}
+#blognav {
+    background: rgba(104, 104, 104, 0.415);
+    backdrop-filter: blur(7px);
+    height: 45px;
+    width: 100%;
+    text-align: center;
+}
+
+.lnk {
+    font-size: 23px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    position:relative;
+    padding-inline: 30px;
+
+}
+
+#now {
+    display: inline-block;
+    margin-top: -10px;
+    text-align: center;
+}
+
+#allLnk {
+    float: left;
+    margin-left: 50px;
+}
+
+@media (max-width: 1800px) {
+    #blognav {
+        overflow: auto;
+        white-space: nowrap;
+    }
+
+    .lnk {
+        display: inline-block;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+    }
+
+    .lnk a:hover{
+        background-color: antiquewhite;
+    }
+
+
+}
+
